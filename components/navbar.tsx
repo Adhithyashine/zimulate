@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const pathname = usePathname()
 
-  const getLinkClass = (href) => 
+  const getLinkClass = (href: string) => 
     pathname === href ? 'text-primary font-semibold' : 'hover:text-primary'
 
   return (
@@ -33,8 +33,10 @@ export default function Navbar() {
               <Link href="/about" className={getLinkClass('/about')}>ABOUT</Link>
               <Link href="/contact" className={getLinkClass('/contact')}>CONTACT</Link>
               <ModeToggle />
-              <Button>CONNECT WITH US</Button>
-            </div>
+              
+              <Link href="/contact">
+  <Button>CONNECT WITH US</Button>
+</Link>            </div>
           </div>
 
           <div className="md:hidden">

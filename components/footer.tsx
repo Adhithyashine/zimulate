@@ -25,7 +25,7 @@ const Footer = () => {
             <p className="flex items-center text-lg font-semibold mb-2">
               <FaBuilding className="mr-3" /> Zimulate Consultech LLP</p>
             <p className="flex items-center text-lg font-semibold mb-2 ">
-              <FaMapMarkerAlt className="mr-3" /> Edachira, Kakkanad, Ernakulam.
+              <FaMapMarkerAlt className="mr-3" /> Kochi, Kerala.
             
             </p>
             <p className="flex items-center text-lg font-semibold mb-2">
@@ -40,7 +40,7 @@ const Footer = () => {
                 href="mailto:zimulateconsultechllp@gmail.com"
                 className="hover:underline"
               >
-                sales@zimulateconsultech.in
+                info@zimulateconsultech.in
               </a>
             </p>
           </div>

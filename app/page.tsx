@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Link from 'next/link';
 import {
   ArrowRight,
   CheckCircle,
@@ -37,9 +38,11 @@ export default function Home() {
               Empowering Innovation, Inspiring Growth
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href="/contact">
+                <Button size="lg">
+                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </motion.div>
         </div>

@@ -8,8 +8,13 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Innovate - Building the Future of Technology',
-  description: 'Transform your ideas into reality with our cutting-edge solutions.',
+  title: 'Zimulate Consultech',
+  description: 'Empowering Innovation, Inspiring Growth',
+  icons: {
+    icon: './favicon-32x32.png',
+    // Optionally, you can add other icons like:
+    // apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({

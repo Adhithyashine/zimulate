@@ -59,8 +59,8 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-2">Office Location</h3>
                       <p className="text-muted-foreground">
-                        Zimulate Consultech<br />
-                        Edachira, Ernakulam<br />                        
+                        Zimulate Consultech LLP<br />
+                        Kochi, Kerala.<br />                        
                       </p>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                     <Mail className="h-6 w-6 text-primary" />
                     <div>
                       <h3 className="font-semibold mb-2">Email</h3>
-                      <p className="text-muted-foreground">sales@zimulateconsultech.in</p>
+                      <p className="text-muted-foreground">info@zimulateconsultech.in</p>
                     </div>
                   </div>
                 </Card>
